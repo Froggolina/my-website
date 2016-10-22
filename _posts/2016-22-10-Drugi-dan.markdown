@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Drugi dan"
+date:   2016-10-22 12:15:09 +0200
+categories: news
+---
+Oj!
