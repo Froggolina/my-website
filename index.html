@@ -3,45 +3,29 @@ layout: default
 ---
 
 <div class="home">
-<img src="/Images/wood.jpg"/>
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
+   <img src="/Images/mangart1.jpg"/>
+
+   <h1 class="page-heading">Lastnosti</h1>
+
+   <table class="table">
+   <tr><th>Motor:</th><td>1.6 bencinar, 75 kW (102 KM)</td></tr> 
+   <tr><th>1. registracija:</th><td>1/2001</td></tr>
+   <tr><th>Prevoženi kilometri:</th><td>222.500 km</td></tr>
+   </table>
+
+   <h1 class="page-heading">Najlepši trenutki</h1>
+
+   <ul class="post-list">
+     {% for post in site.posts %}
+       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
+         <h4>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+        </h4>
+       </li>
+     {% endfor %}
+   </ul>
 </div>
-
-<p>Things that will help me build websites:</p>
-
-<div class="row">
-  <div class="col-md-3">
-    <h2>HTML</h2>
-    <p>Used for content and structure of web pages.</p>
-  </div>
-  <div class="col-md-3">
-    <h2>CSS</h2>
-    <p>Defines the design of website elements.</p>
-  </div>
-  <div class="col-md-3">
-    <h2>JavaScript</h2>
-    <p>Can add cool effects to otherwise boring pages.</p>
-  </div>
-    <div class="col-md-3">
-    <h2>JavaBU</h2>
-    <p>Can add cool effects to otherwise boring pages.</p>
-  </div>
-</div>  
-
-<button type="button" class="btn btn-primary">Gumb</button>
-
+ 

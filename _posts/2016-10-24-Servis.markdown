@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Povzetek servisov"
+date:   2013-10-1 12:15:09 +0200
+categories: news
+---
+
+<table class="table">
+   <tr><th>Datum</th><th>Kilometri</th><th>Storitev</th></tr> 
+   <tr><td>nov 2013</td><td>181.000</td><td>Menjava žarometov, zavornih diskov in ploščic, popravilo števcev, nova antena (shark).</td></tr>
+   <tr><td>feb 2014</td><td>188.000</td><td>Redni servis: olje in filter olja, menjava VW facet stikala stop luči.</td></tr>
+   <tr><td>maj 2014</td><td>193.000</td><td>Nove letne pnevmatike na 16-colskih aluminijastih platiščih.</td></tr>
+   <tr><td>maj 2014</td><td>194.000</td><td>Menjava svečk.</td></tr>
+   <tr><td>sep 2014</td><td>198.000</td><td>Menjava počene letne pnevmatike (ista znamka in tip).</td></tr>
+   <tr><td>mar 2015</td><td>202.000</td><td>Redni servis: olje, filter olja, goriva in zraka.</td></tr>
+   <tr><td>avg 2015</td><td>207.000</td><td>Menjava sveč (prejšne niso bile prave) in lambda sonde.</td></tr>
+   <tr><td>jan 2016</td><td>213.000 ?</td><td>Menjava termostata.</td></tr>
+   <tr><td>mar 2016</td><td>216.000 ?</td><td>Glavni servis: mikro in zobati jermen, olje in filter olja, tesnilo glave in ravnanje glave, set vijakov, menjava nekaterih cevi in vodila šipke</td></tr>
+</table>

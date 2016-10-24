@@ -5,14 +5,15 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    background-color: $brand-color;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
-    font-size: 26px;
-    font-weight: 300;
+    font-size: 28px;
+    font-weight: 500;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -20,7 +21,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #ffffff;
     }
 }
 
